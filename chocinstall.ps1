@@ -55,7 +55,7 @@ param(
     [Parameter(Mandatory = $false)]
     [string]
     #$ChocolateyVersion = $env:chocolateyVersion,
-    $ChocolateyVersion = "1.2.1",
+    $ChocolateyVersion = '1.2.1',
     # If set, uses built-in Windows decompression tools instead of 7zip when
     # unpacking the downloaded nupkg. This will be set by default if
     # $env:chocolateyUseWindowsCompression is set to a value other than 'false' or '0'.
